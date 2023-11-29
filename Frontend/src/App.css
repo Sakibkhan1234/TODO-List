@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#a{
+      display: flex;
+      justify-content: center;
+}
+  #b{
+    margin-left: 13%;
+  }
+#Border{
+   border: 2px solid black;
+   width: 25%;
+   margin-left: 37%;
+   margin-top: 3%;
+   padding: 2%;
+   background-color:black;
+   border-radius: 4%;
+  
+}
+#u{
+   display: flex;
+   list-style-type: none;
+}
+#ed{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  width: 150%;
+  margin-left: -32%;
+}
+#da{
+   height: 20%;
+   margin-top: 5.5%;
+}
+#ad{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -18%;
+  width: 130%;
+}
+#add{
+  height: 20%;
+  margin-top: 6%;
+}
+#box{
+  border: 2px solid whitesmoke;
+  width: 100%;
+  margin-left: -20%;
+}
+#C{
+  margin-left: 20%;
+  color: whitesmoke;
+}
+#V{
+  color: red;
+}
+#B{
+  color: yellow;
+}
+#h{
+  margin-left: 43%;
+  margin-top: 2%;
+  text-decoration: underline;
+}
