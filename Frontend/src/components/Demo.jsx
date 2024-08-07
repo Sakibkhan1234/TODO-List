@@ -23,7 +23,7 @@ const Demo = () => {
 
     var editData=()=>{
         var data={name}
-        axios.put(`http://localhost:5000/edditing/${parms.id}`,data).then((resp)=>{
+        axios.put(`http://localhost:5000/edditing/`,data).then((resp)=>{
            console.log(resp.data)
            if(resp.data!="")
            {
