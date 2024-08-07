@@ -19,7 +19,7 @@ const TODO = () => {
 
     var Store=()=>{
        var data={name}
-        axios.post("http://localhost:5000/posting",data).then((resp)=>{
+        axios.post("http://localhost:5000/posting").then((resp)=>{
             console.log(resp.data)
             if(resp.data!=" ")
             {
